@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A7F99604F7671AF89656BDD /* EMRWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF061E81CC974B5C1B84A1 /* EMRWatchApp.swift */; };
+		13D234528872453B861C53D7 /* EMRiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC76765A056FCC04819D071F /* EMRiOSApp.swift */; };
+		1CDAE2EFF50625FA81381E44 /* EMRiPadOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4E23EB3D00E7C87A9A95F9 /* EMRiPadOSApp.swift */; };
+		20D477788A622FB3DFE10608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C76273D449FCEC11B3562B7 /* Assets.xcassets */; };
+		2288425B3C7768789DA0FA45 /* AppSharedUI in Frameworks */ = {isa = PBXBuildFile; productRef = 46FCEC2F700D8787A5DD99D4 /* AppSharedUI */; };
+		4C9D2A7FB7E1A43967ACF5A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AD1CD4ECC6B9CD11AE98CE6 /* LaunchScreen.storyboard */; };
+		6346647C1796C9B8F117F338 /* AppSharedUI in Frameworks */ = {isa = PBXBuildFile; productRef = 4C23BD724F665C3FE106D67A /* AppSharedUI */; };
+		7FCC5B8199596A1DD55692E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12F75EB5B69922C433E6E4A1 /* Assets.xcassets */; };
+		B505773302843147D2548B88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AB18C12EB298179F6969B3B /* Assets.xcassets */; };
+		B7461D9D613266532EAD5B6D /* AppSharedUI in Frameworks */ = {isa = PBXBuildFile; productRef = 2A90E2B8DA5C8B284E9893B9 /* AppSharedUI */; };
+		C961C14F891739A5A393568A /* AppSharedUI in Frameworks */ = {isa = PBXBuildFile; productRef = 606EEC581E7063CD90641518 /* AppSharedUI */; };
+		F218FDF9B08F8CAE90CAA638 /* EMRMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA744405461A445ECEE830C6 /* EMRMacApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C76273D449FCEC11B3562B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12F75EB5B69922C433E6E4A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BDFF5C753DC531B75D15D54 /* EMRMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EMRMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AD1CD4ECC6B9CD11AE98CE6 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7AB18C12EB298179F6969B3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87D9012EF73254E80CBF6E85 /* bEMR */ = {isa = PBXFileReference; lastKnownFileType = folder; name = bEMR; path = .; sourceTree = SOURCE_ROOT; };
+		90CE2587FC51E57E0999F9EC /* EMRiPadOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = EMRiPadOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98DF061E81CC974B5C1B84A1 /* EMRWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMRWatchApp.swift; sourceTree = "<group>"; };
+		A1DE9E84E762371D929F13B3 /* EMRiOSApp.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = EMRiOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA744405461A445ECEE830C6 /* EMRMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMRMacApp.swift; sourceTree = "<group>"; };
+		BC76765A056FCC04819D071F /* EMRiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMRiOSApp.swift; sourceTree = "<group>"; };
+		F374D5C1B8E779819B54F981 /* EMRWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EMRWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4E23EB3D00E7C87A9A95F9 /* EMRiPadOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMRiPadOSApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06CC3B5497E545393B7D8C8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C961C14F891739A5A393568A /* AppSharedUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D41AC2708FE7BBD246B817F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6346647C1796C9B8F117F338 /* AppSharedUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B9A55B5CF3B4E418ECA35CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7461D9D613266532EAD5B6D /* AppSharedUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE43391E32C1813F9651174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2288425B3C7768789DA0FA45 /* AppSharedUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000961B1A44D6EE4FB3ABF55 /* EMRMac */ = {
+			isa = PBXGroup;
+			children = (
+				12F75EB5B69922C433E6E4A1 /* Assets.xcassets */,
+				AA744405461A445ECEE830C6 /* EMRMacApp.swift */,
+			);
+			name = EMRMac;
+			path = Apps/EMRMac;
+			sourceTree = "<group>";
+		};
+		4A4D548BF65A0A8A6DA1C415 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1DE9E84E762371D929F13B3 /* EMRiOSApp.app */,
+				90CE2587FC51E57E0999F9EC /* EMRiPadOS.app */,
+				2BDFF5C753DC531B75D15D54 /* EMRMac.app */,
+				F374D5C1B8E779819B54F981 /* EMRWatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51A4051C93FC0F2F78CB1928 /* EMRWatch */ = {
+			isa = PBXGroup;
+			children = (
+				98DF061E81CC974B5C1B84A1 /* EMRWatchApp.swift */,
+			);
+			name = EMRWatch;
+			path = Apps/EMRWatch;
+			sourceTree = "<group>";
+		};
+		58C5E264E36EB67CED1ACEB4 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				87D9012EF73254E80CBF6E85 /* bEMR */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		D04C3DC955F4843160F3D1BC /* EMRiPadOS */ = {
+			isa = PBXGroup;
+			children = (
+				7AB18C12EB298179F6969B3B /* Assets.xcassets */,
+				FF4E23EB3D00E7C87A9A95F9 /* EMRiPadOSApp.swift */,
+			);
+			name = EMRiPadOS;
+			path = Apps/EMRiPadOS;
+			sourceTree = "<group>";
+		};
+		D056BF68EEAA1A61238BD8F8 /* EMRiOS */ = {
+			isa = PBXGroup;
+			children = (
+				0C76273D449FCEC11B3562B7 /* Assets.xcassets */,
+				BC76765A056FCC04819D071F /* EMRiOSApp.swift */,
+				6AD1CD4ECC6B9CD11AE98CE6 /* LaunchScreen.storyboard */,
+			);
+			name = EMRiOS;
+			path = Apps/EMRiOS;
+			sourceTree = "<group>";
+		};
+		F6EB422207F917CA6E79C868 = {
+			isa = PBXGroup;
+			children = (
+				D056BF68EEAA1A61238BD8F8 /* EMRiOS */,
+				D04C3DC955F4843160F3D1BC /* EMRiPadOS */,
+				000961B1A44D6EE4FB3ABF55 /* EMRMac */,
+				51A4051C93FC0F2F78CB1928 /* EMRWatch */,
+				58C5E264E36EB67CED1ACEB4 /* Packages */,
+				4A4D548BF65A0A8A6DA1C415 /* Products */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0054BCED7B34EEA685A0275C /* EMRMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C8B76B405ECF2177D7D111A /* Build configuration list for PBXNativeTarget "EMRMac" */;
+			buildPhases = (
+				E3A24F5DBB6FFE280B24871C /* Sources */,
+				0676C9D5636F86D8B625C119 /* Resources */,
+				3B9A55B5CF3B4E418ECA35CF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EMRMac;
+			packageProductDependencies = (
+				2A90E2B8DA5C8B284E9893B9 /* AppSharedUI */,
+			);
+			productName = EMRMac;
+			productReference = 2BDFF5C753DC531B75D15D54 /* EMRMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01646AA86243DEBAA71CE201 /* EMRiOSApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 077DB0361D1B8D48AA43C9FC /* Build configuration list for PBXNativeTarget "EMRiOSApp" */;
+			buildPhases = (
+				50B997CF25A315ED050CEEF6 /* Sources */,
+				3AFA91846C40982B76E8AFB9 /* Resources */,
+				1D41AC2708FE7BBD246B817F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EMRiOSApp;
+			packageProductDependencies = (
+				4C23BD724F665C3FE106D67A /* AppSharedUI */,
+			);
+			productName = EMRiOSApp;
+			productReference = A1DE9E84E762371D929F13B3 /* EMRiOSApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C7BC50CBC7FFD0386F870EC /* EMRWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78122150C27B98364757E8D1 /* Build configuration list for PBXNativeTarget "EMRWatch" */;
+			buildPhases = (
+				7A269BA2686EC3310C0C9620 /* Sources */,
+				6CE43391E32C1813F9651174 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EMRWatch;
+			packageProductDependencies = (
+				46FCEC2F700D8787A5DD99D4 /* AppSharedUI */,
+			);
+			productName = EMRWatch;
+			productReference = F374D5C1B8E779819B54F981 /* EMRWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		878BA1B6D28EACD8E8DCA0A8 /* EMRiPadOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 569C1E7DC9742100C245B389 /* Build configuration list for PBXNativeTarget "EMRiPadOS" */;
+			buildPhases = (
+				AEED82BD8A63D622D6E7DF1D /* Sources */,
+				16B8E7CAD34A734918DD163A /* Resources */,
+				06CC3B5497E545393B7D8C8C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EMRiPadOS;
+			packageProductDependencies = (
+				606EEC581E7063CD90641518 /* AppSharedUI */,
+			);
+			productName = EMRiPadOS;
+			productReference = 90CE2587FC51E57E0999F9EC /* EMRiPadOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BE91ADCC81D5B2561BF8433 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 6F2BB2F24A0C830F153E65D3 /* Build configuration list for PBXProject "bEMRApps" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = F6EB422207F917CA6E79C868;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				990CE424A4805E20442B58A1 /* XCLocalSwiftPackageReference "." */,
+			);
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0054BCED7B34EEA685A0275C /* EMRMac */,
+				6C7BC50CBC7FFD0386F870EC /* EMRWatch */,
+				01646AA86243DEBAA71CE201 /* EMRiOSApp */,
+				878BA1B6D28EACD8E8DCA0A8 /* EMRiPadOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0676C9D5636F86D8B625C119 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FCC5B8199596A1DD55692E3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16B8E7CAD34A734918DD163A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B505773302843147D2548B88 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFA91846C40982B76E8AFB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D477788A622FB3DFE10608 /* Assets.xcassets in Resources */,
+				4C9D2A7FB7E1A43967ACF5A7 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50B997CF25A315ED050CEEF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D234528872453B861C53D7 /* EMRiOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A269BA2686EC3310C0C9620 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7F99604F7671AF89656BDD /* EMRWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEED82BD8A63D622D6E7DF1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CDAE2EFF50625FA81381E44 /* EMRiPadOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3A24F5DBB6FFE280B24871C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F218FDF9B08F8CAE90CAA638 /* EMRMacApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		19D86AAAC51990AA73225294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Support/Info_macOS.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.bemr.mac;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		23068B6975AF48C93BF870D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		30EC98703A7F5C82CB2742D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		34F699E41A77C0379F9B2CFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Support/Info_watchOS.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.bemr.watch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		6BB0F4AB03ED9B3FF000C2A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Support/Info_iOS.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.bemr.ipados;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		75AE4810A65FE89C678FCBE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Support/Info_watchOS.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.bemr.watch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		9B32A04C01824FA642F8F406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Support/Info_iOS.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.bemr.ipados;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		A494BF497FD352D83326EC9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Support/Info_macOS.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.bemr.mac;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ED7E3CA2ABB3C83048574A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Support/Info_iOS.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.bemr.ios;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDCD0661AE707D8F5072F5C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Support/Info_iOS.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.bemr.ios;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		077DB0361D1B8D48AA43C9FC /* Build configuration list for PBXNativeTarget "EMRiOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDCD0661AE707D8F5072F5C6 /* Debug */,
+				ED7E3CA2ABB3C83048574A5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		569C1E7DC9742100C245B389 /* Build configuration list for PBXNativeTarget "EMRiPadOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BB0F4AB03ED9B3FF000C2A4 /* Debug */,
+				9B32A04C01824FA642F8F406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5C8B76B405ECF2177D7D111A /* Build configuration list for PBXNativeTarget "EMRMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A494BF497FD352D83326EC9D /* Debug */,
+				19D86AAAC51990AA73225294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6F2BB2F24A0C830F153E65D3 /* Build configuration list for PBXProject "bEMRApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30EC98703A7F5C82CB2742D7 /* Debug */,
+				23068B6975AF48C93BF870D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		78122150C27B98364757E8D1 /* Build configuration list for PBXNativeTarget "EMRWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75AE4810A65FE89C678FCBE4 /* Debug */,
+				34F699E41A77C0379F9B2CFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		990CE424A4805E20442B58A1 /* XCLocalSwiftPackageReference "." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = .;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2A90E2B8DA5C8B284E9893B9 /* AppSharedUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppSharedUI;
+		};
+		46FCEC2F700D8787A5DD99D4 /* AppSharedUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppSharedUI;
+		};
+		4C23BD724F665C3FE106D67A /* AppSharedUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppSharedUI;
+		};
+		606EEC581E7063CD90641518 /* AppSharedUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppSharedUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5BE91ADCC81D5B2561BF8433 /* Project object */;
+}

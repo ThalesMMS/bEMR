@@ -1,0 +1,11 @@
+/.build
+/.swiftpm
+/Packages
+xcuserdata/
+DerivedData/
+*.xcuserstate
+*.moved-aside
+.DS_Store
+.idea/
+.DS_Store
+/.code
